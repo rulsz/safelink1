@@ -42,7 +42,7 @@ $(document).ready(function() {
                     }
                     var c = Math.random() * s.length;
                     c = parseInt(c);
-                    var resultgenerate = s[c] + "#?o=" + aesCrypto.encrypt(convertstr(e), convertstr("root"));
+                    var resultgenerate = "https://www.rulsz.eu.org/p/safe.html" + "#?o=" + aesCrypto.encrypt(convertstr(e), convertstr("root"));
                     a.addClass("hidden");
                     r.removeClass("hidden");
                     n.val(resultgenerate);
